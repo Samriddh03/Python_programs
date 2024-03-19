@@ -1,0 +1,49 @@
+  print("2563")
+print(17+89)
+print("hey",6,7, sep="~")
+p=4588999
+print(p)
+
+list1 = [8, 20.3 ,[-7,-98], "apple"] #here we use sqare brackets and lists are mutable means we can modify it.
+print(list1)
+
+tuple1= ("parrot","sparrow") #here we use parentheses and tuple are immutable and we cnnot modify it.
+print(tuple1)
+
+#mapped data : dictionary -> a dic is an unordered collection of data cont. key value pairs.the key value pairs are enclosed in curly brackets.
+dict1 = {"name": "samriddh", "age" : 20, "canVote":True}
+print(dict1)
+
+#simple calculater
+a = 5 
+b = 3
+print("The value of", a, "+", 3, "is: ", a+b)
+print("The value of", a, "-", 3, "is: ", a-b)
+print("The value of", a, "*", 3, "is: ", a*b)
+print("The value of", a, "/", 3, "is: ", a/b)
+print("The value of", a, "%", 3, "is: ", a%b)
+
+#typecasting
+a="1" # string
+b="2"
+print(int(a) + int(b)) #here we have converted string into interger 
+
+a=1 # integer
+b=2
+print(a+ b)
+
+a= input("Enter fisrt number : ")
+b= input("Enter second number : ")
+print(a + b)#here is taken as string.
+print(int(a) + int(b))#here we have used typecasting. coverting stirng into integer'''
+
+#accessing character of a string
+name= "samriddh"
+print(name[0])
+print(name[1])
+print(name[2])
+print(name[3])
+
+#length fuction
+name="Samriddh"
+print(len(name))

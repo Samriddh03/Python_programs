@@ -1,0 +1,7 @@
+name="Samriddh"
+print(len(name))
+
+print(name[0:5]) 
+print(name[-2:-1])
+
+
